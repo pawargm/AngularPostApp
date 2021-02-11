@@ -1,0 +1,17 @@
+<div>
+    <form >
+        <div class="form-group">
+        <label for="name">title</label>
+        <input type="text" class="form-control" [(ngModel)]="post.title" name="title">
+        </div>
+
+        <div class="form-group">
+            <label for="body">body</label>
+            <input type="text" class="form-control" [(ngModel)]="post.body" name="body">
+            </div>
+
+        <button type="button" class="btn btn-primary" (click)="submitPost()">Submit</button>
+
+    </form>
+
+</div>
